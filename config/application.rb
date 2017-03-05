@@ -18,6 +18,9 @@ module Basic
         controller_specs: false,
         request_specs: false
       g.fixture_replacement :factory_girl, dir: "spec/factories"
+      g.helper false
+      g.assets false
+      g.jbuilder false
     end
 
     # Settings in config/environments/* take precedence over those specified here.

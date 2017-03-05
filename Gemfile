@@ -11,7 +11,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'
+# gem 'jbuilder', '~> 2.5'
+gem 'aws-sdk', '~> 2.3.0'
+gem 'paperclip', '~> 5.0.0'
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
@@ -33,7 +36,7 @@ group :development do
   gem 'html2haml'
   gem 'hub', :require=>nil
   gem 'rails_layout'
-  gem 'spring-commands-rspec'
+  gem 'spring-commands-rspec', git: 'https://github.com/thewoolleyman/spring-commands-rspec.git'
 end
 group :development, :test do
   gem 'factory_girl_rails'
