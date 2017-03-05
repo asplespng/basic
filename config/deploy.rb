@@ -4,7 +4,7 @@ lock "3.7.2"
 set :application, "basic"
 set :repo_url, "https://github.com/asplespng/basic"
 
-set :deploy_to, '/home/rails/my_app_name'
+set :deploy_to, '/home/rails/basic'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
