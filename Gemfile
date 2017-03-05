@@ -36,7 +36,7 @@ group :development do
   gem 'html2haml'
   gem 'hub', :require=>nil
   gem 'rails_layout'
-  gem 'spring-commands-rspec'
+  gem 'spring-commands-rspec', git: 'https://github.com/thewoolleyman/spring-commands-rspec.git'
 end
 group :development, :test do
   gem 'factory_girl_rails'
