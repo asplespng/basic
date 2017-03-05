@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Csv file:
+  = @spreadsheet.csv_file
+
+= link_to 'Edit', edit_spreadsheet_path(@spreadsheet)
+\|
+= link_to 'Back', spreadsheets_path
