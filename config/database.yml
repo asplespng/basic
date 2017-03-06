@@ -52,6 +52,6 @@ production:
   encoding: unicode
   database: basic_production
   pool:     5
-  username: basic
-  password:
+  username: ENV['POSTGRES_USER']
+  password: ENV['POSTGRES_PASSWORD']
   template: template0
