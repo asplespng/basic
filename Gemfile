@@ -42,6 +42,7 @@ group :development do
   gem 'capistrano-rails', '~> 1.2'
   gem 'capistrano-rvm'
   gem 'capistrano3-puma'
+  gem 'capistrano-rails-collection'
 end
 group :development, :test do
   gem 'factory_girl_rails'
