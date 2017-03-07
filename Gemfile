@@ -40,8 +40,8 @@ group :development do
   gem 'spring-commands-rspec', git: 'https://github.com/thewoolleyman/spring-commands-rspec.git'
   gem 'capistrano', '~> 3.7', '>= 3.7.1'
   gem 'capistrano-rails', '~> 1.2'
-  gem 'capistrano-passenger', '~> 0.2.0'
   gem 'capistrano-rvm'
+  gem 'capistrano3-puma'
 end
 group :development, :test do
   gem 'factory_girl_rails'
