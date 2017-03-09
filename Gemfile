@@ -43,6 +43,7 @@ group :development do
   gem 'capistrano-rvm'
   gem 'capistrano3-puma'
   gem 'capistrano-rails-collection'
+  gem 'capistrano-rails-console', require: false
 end
 group :development, :test do
   gem 'factory_girl_rails'
