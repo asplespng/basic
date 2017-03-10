@@ -9,6 +9,10 @@ set :deploy_to, '/home/rails/basic'
 # set :rvm_type, :user
 set :rvm_ruby_version, '2.4.0@basic'
 
+# set :bundle_path, nil
+# set :bundle_binstubs, nil
+# set :bundle_flags, '--system'
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
