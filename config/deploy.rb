@@ -6,6 +6,9 @@ set :repo_url, "https://github.com/asplespng/basic"
 
 set :deploy_to, '/home/rails/basic'
 
+# set :rvm_type, :user
+set :rvm_ruby_version, '2.4.0@basic'
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

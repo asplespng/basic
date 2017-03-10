@@ -31,9 +31,7 @@ require 'capistrano/rails'
 require 'capistrano/puma'
 require "capistrano/rvm"
 require 'capistrano/rails/console'
-set :rvm_type, :user
-set :user, 'rails'
-set :rvm_ruby_version, '2.4.0@basic'
+
 # require "capistrano/rbenv"
 # require "capistrano/chruby"
 # require "capistrano/bundler"
