@@ -1,9 +1,11 @@
-%p#notice= notice
+.panel.panel-default
+  .panel-heading
+    %h3.panel-title Test
+  .panel-body
+    %p
+      %b Image:
+      = @image.image
 
-%p
-  %b Image:
-  = @image.image
-
-= link_to 'Edit', edit_image_path(@image)
-\|
-= link_to 'Back', images_path
+    = link_to 'Edit', edit_image_path(@image)
+    \|
+    = link_to 'Back', images_path
