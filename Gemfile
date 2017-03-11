@@ -15,7 +15,8 @@ gem 'turbolinks', '~> 5'
 # gem 'jbuilder', '~> 2.5'
 gem 'aws-sdk', '~> 2.3.0'
 gem 'paperclip', '~> 5.0.0'
-gem 'rails-assets-bootswatch', source: 'https://rails-assets.org'
+# gem 'rails-assets-bootswatch', source: 'https://rails-assets.org'
+gem 'bootswatch-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
