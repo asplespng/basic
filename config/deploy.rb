@@ -5,7 +5,7 @@ set :application, "basic"
 set :repo_url, "https://github.com/asplespng/basic"
 
 set :deploy_to, '/home/rails/basic'
-
+#test
 # set :rvm_type, :user
 set :rvm_ruby_version, '2.4.0@basic'
 
