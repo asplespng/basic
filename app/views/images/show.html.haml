@@ -1,11 +1,22 @@
 .panel.panel-default
   .panel-heading
-    %h3.panel-title Test
+    .row
+      .col-xs-6
+        %h3.panel-title Test
+      .col-xs-6
+        %span.panel-title
+          =link_to images_path, class: 'pull-right btn btn-xs btn-default' do
+            %i.fa.fa-list-alt
+            = "All #{controller_name.classify.humanize.pluralize}"
   .panel-body
     %p
       %b Image:
       = @image.image
-
-    = link_to 'Edit', edit_image_path(@image)
-    \|
-    = link_to 'Back', images_path
+    .row.text-right
+      .col-xs-12
+        =link_to edit_image_path, class: 'btn btn-xs btn-primary' do
+          %i.fa.fa-pencil
+          Edit
+        =link_to edit_image_path, class: 'btn btn-xs btn-danger' do
+          %i.fa.fa-trash
+          Delete
