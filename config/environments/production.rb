@@ -72,7 +72,7 @@ Rails.application.configure do
     address: "smtp.zoho.com",
     port: 587,
     domain: Rails.application.secrets.domain_name,
-    authentication: "login",
+    authentication: :login,
     enable_starttls_auto: true,
     user_name: Rails.application.secrets.email_provider_username,
     password: Rails.application.secrets.email_provider_password
