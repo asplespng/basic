@@ -70,12 +70,10 @@ Rails.application.configure do
 
   config.action_mailer.smtp_settings = {
     address: "smtp.zoho.com",
-    port: 465,
+    port: 587,
     domain: Rails.application.secrets.domain_name,
-    authentication: "plain",
+    authentication: "login",
     enable_starttls_auto: true,
-    ssl: true,
-    tls: true,
     user_name: Rails.application.secrets.email_provider_username,
     password: Rails.application.secrets.email_provider_password
   }
