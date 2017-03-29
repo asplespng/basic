@@ -70,13 +70,11 @@ Rails.application.configure do
 
   config.action_mailer.smtp_settings =   config.action_mailer.smtp_settings = {
       :address              => "smtp.zoho.com",
-      :port                 => 465,
+      :port                 => 587,
       :domain               => "perevensen.com",
-      :user_name            => "noreply",
+      :user_name            => "noreply@perevensen.com",
       :password             => ENV['SMTP_PASSWORD'],
-      :authentication       => :plain,
-      ssl: true,
-      tls: true,
+      :authentication       => :login,
       :enable_starttls_auto => true
   }
   # ActionMailer Config
