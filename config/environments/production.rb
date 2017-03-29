@@ -70,7 +70,7 @@ Rails.application.configure do
 
   config.action_mailer.smtp_settings = {
     address: "smtp.zoho.com",
-    port: 993,
+    port: 587,
     domain: Rails.application.secrets.domain_name,
     authentication: :login,
     enable_starttls_auto: true,
