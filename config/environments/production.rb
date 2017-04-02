@@ -68,7 +68,7 @@ Rails.application.configure do
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 
-  config.action_mailer.smtp_settings =   config.action_mailer.smtp_settings = {
+  config.action_mailer.smtp_settings = {
       :address              => "smtp.zoho.com",
       :port                 => 587,
       :domain               => "perevensen.com",
