@@ -10,7 +10,7 @@ feature 'Home page' do
   #   Then I see "Welcome"
   scenario 'visit the home page' do
     visit root_path
-    expect(page.body).to include 'A Bootstrap Starter Template'
+    expect(page.body).to include 'Welcome'
   end
 
 end
